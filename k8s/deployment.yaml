@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nginx:latest
+        image: dockerhub-username/myapp:00084deccbaf2eaf430a334ea4c56cc7e111aa2b
         ports:
         - containerPort: 80
